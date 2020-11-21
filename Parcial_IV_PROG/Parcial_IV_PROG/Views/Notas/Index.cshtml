@@ -1,0 +1,35 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+
+</head>
+<body>
+    <div>
+        <form method="Post" action="Notas">
+            <label>Implementa los datos que se le dan a continuacion</label><br />
+            <label>Asigne su nombre</label><br />
+            <input id="Nombre" type="text" required name="Nombre" /><br />
+            <label>Asigne el codigo del Estudiante</label><br />
+            <input id="Codigo" type="text" required name="Codigo" /> <br />
+            <label>Nombre de la materia</label>
+            <input id="Nombre_Materia" type="text" required name="Materia" /> <br />
+            <label>Asigne la nota 1</label><br />
+            <input id="N1" type="number" required name="N1" min="1" max="5" /> <br />
+            <label>Asigne la nota 2</label><br />
+            <input id="N1" type="number" required name="N2" min="1" max="5" /> <br />
+            <label>Asigne la nota 3</label><br />
+            <input id="N1" type="number" required name="N3" min="1" max="5" /> <br />
+            <input type="submit" id="Enviar" value="Enviar datos" />
+        </form>
+
+    </div>
+</body>
+</html>
