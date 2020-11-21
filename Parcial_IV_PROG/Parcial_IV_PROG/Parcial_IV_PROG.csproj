@@ -151,6 +151,7 @@
     <Content Include="Views\Notas\Notas.cshtml" />
     <Content Include="Views\Mercado\Index.cshtml" />
     <Content Include="Views\Mercado\Mercado.cshtml" />
+    <None Include="Properties\PublishProfiles\EVA_IV.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
