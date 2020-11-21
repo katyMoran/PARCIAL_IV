@@ -11,7 +11,7 @@
     <form id="form1" runat="server">
     <div>
     <h1>MENU DE SELECCION</h1>
-        <asp:Button ID="Button1" runat="server" Text="Ejercicio 4" OnClick="Button1_Click" /> <br />
+        <asp:Button ID="Button1" runat="server" Text="Ejercicio 4" OnClick="Button1_Click" /> 
         <asp:Button ID="Button2" runat="server" Text="Ejercicio 6" OnClick="Button2_Click" /> <br />
         Katherine Michelle Moran Bonilla <br />
         Carnet: 25-1834-2017<br />
